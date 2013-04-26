@@ -3,7 +3,7 @@ MOS_SL_Test13
 
 Python 2.7 code by Ben Richardson (2013) as part of a Part III Astrophysics project. 
 
-Predicts the radial velocity accuracy of a Sandage-Loeb campaign using emission line galaxies.
+Predicts the radial velocity accuracy of a MOS Sandage-Loeb campaign using emission line galaxies as cosmic sources
 
 Uses the numpy, scipy and cosmolopy (http://roban.github.io/CosmoloPy/) packages.
 
@@ -13,6 +13,8 @@ SL_Test.py: The main program. Options to predit RV errors, megagalaxy errors and
 z,L,F list. 
 
   Sky_Background.py: Fitted sky background data from the E-ELT reference mission
+  
+  Graph.py: Plots ELG spectra (if this option is selected)
 
 LZ_Dist.py: Returns an array N(z,L) giving the number of galaxies in a series of z,L bins.
 
